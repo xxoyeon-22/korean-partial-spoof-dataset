@@ -1,6 +1,5 @@
-# Korean Partial-Spoof Speech Dataset & Cross-Lingual Generalization Evaluation
-
-한국어 부분 조작(Partial-Spoof) 음성 데이터셋을 구축하고, 최신 탐지·로컬라이제이션 모델의 언어 간(cross-lingual) 일반화 성능을 평가하는 연구 프로젝트입니다.
+# Korean Partial Deepfake Speech Dataset
+   **한국어 부분 위조 음성 데이터셋 구축 및 탐지 모델 일반화 평가**
 
 > 🚧 Research in progress — 데이터셋 구축 및 평가 코드가 준비되는 대로 이 리포에 업로드될 예정입니다.
 
