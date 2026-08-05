@@ -1,0 +1,36 @@
+# 데이터 (용량이 크므로 Git 제외, src/data/ 코드는 영향 없도록 루트에 고정)
+/data/
+*.wav
+*.mp3
+*.flac
+*.tar.gz
+
+# 단, 매니페스트(라벨 CSV)는 포함
+!manifests/*.csv
+
+# API 키 등 비밀 정보 (절대 커밋 금지)
+.env
+*.key
+secrets.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# 모델 가중치
+*.pth
+*.ckpt
+*.pt
+pretrained_models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+logs/
+*.log
